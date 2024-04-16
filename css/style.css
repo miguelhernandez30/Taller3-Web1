@@ -1,0 +1,159 @@
+body,
+html {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    margin-right: 4%;
+}
+.ButtonHome{
+    background-color: #9fd133;
+    color: #fff;
+    border: none;
+    padding: 41px 25px;
+    display: flex;
+}
+
+
+.Div-Padre {
+    display: flex;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: white;
+    width: 80%;
+    align-items: center;
+    margin-top: -50%;
+    
+}
+
+.Div-Izquierdo {
+    display: flex;
+    width: 50%;
+    justify-content: left;
+
+}
+
+.Div-Derecho {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+.Div-Izquierdo img {
+    height: 90px;
+    width: 180px;
+
+}
+
+.CuadroProducto {
+    
+    background-color: white;
+    width: 380px;
+    height: 300px;
+    position: absolute;
+    margin-top: 6%;
+    text-align: center;
+    margin-left: 15%;
+    font-size: 15px;
+}
+
+.TituloPrecio {
+    background-color: #eb4245;
+    color: #fff;
+    padding: 13px 18px;
+    border: none;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+
+.pre-booking {
+    background-color: #9fd133;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+}
+
+.TituloDePaises {
+    background-color: #9fd133;
+    color: white;
+    padding: 7%;
+    display: flex;
+    font-size: 120%;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.DiferentesPaises {
+    display: flex;
+    background-color: white;
+    font-size: 15px;
+    margin-top: 38%;
+    gap: 2%;
+    width: 50%;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+   justify-content: center;
+}
+
+.DiferentesPaises img {
+    height: 210px;
+    width: 240px;
+}
+
+.BotonCompar {
+    background-color: #9fd133;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+.barra-info {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.BarraInferiorPadre{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    align-items: center;
+}
+
+.BarraIzquierdo{
+    display: flex;
+    width: 50%;
+    justify-content: left;
+}
+
+.BarraCentro{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.BarraDerecha{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+
+}
